@@ -70,7 +70,7 @@ window.config(pady=20,padx=20)
 window.grid_columnconfigure(0, minsize=120)
 window.grid_columnconfigure(1, minsize=250)
 window.title("Password Manager")
-window.config(bg="pink")
+# window.config(bg="pink")
 
 mypass=PhotoImage(file="img.png")
 canvas=Canvas(width=200,height=200,highlightthickness=0)
@@ -109,4 +109,9 @@ add_button=Button(text="Add", width=36, command=save_data)
 add_button.grid(row=4,column=1,columnspan=2)
 
 
+window.grid_rowconfigure(0, weight=1)
+window.grid_rowconfigure(5, weight=1)
+
+window.grid_columnconfigure(0, weight=1)
+window.grid_columnconfigure(3, weight=1)
 window.mainloop()
