@@ -17,7 +17,7 @@ A simple Password Manager built using Python and Tkinter.
 
 ## Screenshot
 
-(Add screenshot here)
+![Password Manager](screenshot.png)
 
 ## How to Run
 
